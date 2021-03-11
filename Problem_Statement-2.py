@@ -8,13 +8,13 @@ B=[]
 
 c=0
 d=0
-for i in range(N):
+for i in range(1,N+1):
     c=c+X 
     d=d+Y
     
-    if c<N:
+    if c<=N:
         A.append(c)
-    if d<N:
+    if d<=N:
         B.append(d)
 
 for i in A:
