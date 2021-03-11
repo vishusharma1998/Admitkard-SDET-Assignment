@@ -3,8 +3,8 @@ X = int(input())
 Y = int(input())
 T = int(input())
 
-A=[]
-B=[]
+A = []
+B = []
 
 c=0
 d=0
