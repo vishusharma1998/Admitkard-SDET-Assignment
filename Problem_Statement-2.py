@@ -3,8 +3,8 @@ X = int(input())
 Y = int(input())
 T = int(input())
 
-x=[]
-y=[]
+A=[]
+B=[]
 
 c=0
 d=0
@@ -13,22 +13,22 @@ for i in range(N):
     d=d+Y
     
     if c<N:
-        x.append(c)
+        A.append(c)
     if d<N:
-        y.append(d)
+        B.append(d)
 
-for i in x:
+for i in A:
     print(i, end=" ")
 print()
-for i in y:
+for i in B:
     print(i, end=" ")
 print()
 
-if len(x)<len(y):
-    for i in x:
+if len(A)<len(B):
+    for i in A:
         if (T-i)%X==0 and (T-i)>0:
             print(i, T-i)
 else:
-    for i in y:
+    for i in B:
         if (T-i)%X==0 and (T-i)>0:
             print(i, T-i)
